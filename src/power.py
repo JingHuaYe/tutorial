@@ -6,8 +6,8 @@ def to_the_power(x, y):
  return result
 
 def main():
- x = 10
- y = 3
- print "10 to the power of 3 is: ", to_the_power(x, y)
+ x = 150
+ y = 2
+ print "{0} to the power of {1} is: {2}".format(x, y, to_the_power(x, y))
 
 main()
