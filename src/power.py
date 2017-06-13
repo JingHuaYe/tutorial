@@ -18,6 +18,10 @@ def square_root(x):
  return math.sqrt(x)
 
 def main():
+ if len(sys.argv) < 3:
+  print "You must supply 2 parameters!"
+  exit()
+
  x = int(sys.argv[1])
  y = int(sys.argv[2])
  print "{0} to the power of {1} is: {2}".format(x, y, to_the_power(x, y))
