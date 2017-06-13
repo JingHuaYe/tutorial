@@ -1,3 +1,6 @@
+"""
+ This is a script that calculates one number to the power of another
+"""
 def to_the_power(x, y):
  y = 2
  result = x
